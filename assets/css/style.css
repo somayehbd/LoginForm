@@ -11,7 +11,8 @@ body {
     align-items: center;
 }
 
-.flex-container>div {
+.flex-container > div {
+    width: 700px;
     background: #FFFFFF;
     text-align: center;
     border-radius: 5px;
@@ -35,33 +36,40 @@ body {
 h1{
     font-size: 1rem;
     text-align: center;
+    font-weight: bold;
+    margin: 50px 0 10px 0px;
 }
 
 button{
     background-color: rgb(14, 13, 13);
     color: white;
-}
-
-.rightbox{
-    background: blue;
-}
-.content1, .content2{
-    display: block;
-    text-align: left;
-
-}.content2{
-    margin: 10px 0px 10px 0px;
-}
-.content2 >button{
-    text-align: center;
-    color: #828284;
     width: 100%;
-    margin: 10px 0px 10px 0px;
 }
+
 .buttom-container{
     text-align: center;
+    margin: 15px 0 15px 0;
 }
 .buttom-container > div{
     display: inline-block;
     font-size: 12px;
 }
+
+.form-group {
+    text-align: left;
+}
+
+.carousel-cell {
+    width: 100%; /* full width */
+    height: 160px; /* height of carousel */
+    margin-right: 10px;
+    
+  }
+  .carousel-cell.is-selected {
+    background: #ED2;
+  }
+  .rightbox{
+    margin: 10px 5px 10px 5px;
+    padding: 5px;
+    text-align: center;
+  }
