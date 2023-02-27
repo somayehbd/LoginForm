@@ -15,7 +15,7 @@ body {
     width: 700px;
     background: #FFFFFF;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 5px;
     margin: 20px 20px 20px 20px;
 }
@@ -63,6 +63,7 @@ button{
     width: 100%; /* full width */
     height: 160px; /* height of carousel */
     margin-right: 10px;
+    border-radius: 10px;
     
   }
   .carousel-cell.is-selected {
