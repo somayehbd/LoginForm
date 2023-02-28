@@ -3,5 +3,7 @@ $('.main-carousel').flickity({
     cellAlign: 'left',
     contain: false,
     autoPlay: true,
-    autoPlay: 1500
+    autoPlay: 1500,
+    setGallerySize: false,
+    prevNextButtons: false
 });
